@@ -1,0 +1,10 @@
+{
+  "name": "com.berkcankarabulut.addressableassetkit",
+  "version": "1.0.0",
+  "displayName": "Addressable Asset Kit",
+  "description": "A comprehensive Unity package for managing Addressable asset downloads and lifecycle with reactive programming support. Features include concurrent downloads, progress tracking, automatic retries, reference counting, and catalog management.",
+  "author": {
+    "name": "Berkcan Karabulut",
+    "url": "https://github.com/berkcankarabulut"
+  }
+}
