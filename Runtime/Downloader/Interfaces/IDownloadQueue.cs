@@ -1,6 +1,6 @@
-using AddressableAssetKit.Runtime.Downloader.Models;
+using AddressableAssetKit.Runtime.Download.Models;
 
-namespace AddressableAssetKit.Runtime.Downloader.Interfaces
+namespace AddressableAssetKit.Runtime.Download.Interfaces
 {
     public interface IDownloadQueue
     {

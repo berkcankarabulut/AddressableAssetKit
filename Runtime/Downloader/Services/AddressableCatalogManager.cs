@@ -1,11 +1,11 @@
 using System.Threading;
-using AddressableAssetKit.Runtime.Downloader.Interfaces;
+using AddressableAssetKit.Runtime.Download.Interfaces;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-namespace AddressableAssetKit.Runtime.Downloader.Services
+namespace AddressableAssetKit.Runtime.Download.Services
 {
     public class AddressableCatalogManager : ICatalogManager
     {

@@ -1,4 +1,4 @@
-namespace AddressableAssetKit.Runtime.Downloader
+namespace AddressableAssetKit.Runtime.Download
 { 
     public class DownloadSettings
     {

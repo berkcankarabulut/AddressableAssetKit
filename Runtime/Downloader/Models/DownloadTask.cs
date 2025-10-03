@@ -1,4 +1,4 @@
-namespace AddressableAssetKit.Runtime.Downloader.Models
+namespace AddressableAssetKit.Runtime.Download.Models
 {
     public class DownloadTask
     {

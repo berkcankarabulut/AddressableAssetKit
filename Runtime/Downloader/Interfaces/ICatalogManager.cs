@@ -1,7 +1,7 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace AddressableAssetKit.Runtime.Downloader.Interfaces
+namespace AddressableAssetKit.Runtime.Download.Interfaces
 {
     public interface ICatalogManager
     {

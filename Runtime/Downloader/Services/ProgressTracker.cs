@@ -1,8 +1,8 @@
-using AddressableAssetKit.Runtime.Downloader.Interfaces;
-using AddressableAssetKit.Runtime.Downloader.Models;
+using AddressableAssetKit.Runtime.Download.Interfaces;
+using AddressableAssetKit.Runtime.Download.Models;
 using UniRx;
 
-namespace AddressableAssetKit.Runtime.Downloader.Services
+namespace AddressableAssetKit.Runtime.Download.Services
 {
     public class ProgressTracker : IProgressTracker
     {

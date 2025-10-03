@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using AddressableAssetKit.Runtime.Downloader.Interfaces;
-using AddressableAssetKit.Runtime.Downloader.Models;
+using AddressableAssetKit.Runtime.Download.Interfaces;
+using AddressableAssetKit.Runtime.Download.Models;
 
-namespace AddressableAssetKit.Runtime.Downloader.Services
+namespace AddressableAssetKit.Runtime.Download.Services
 {
     public class PriorityDownloadQueue : IDownloadQueue
     {

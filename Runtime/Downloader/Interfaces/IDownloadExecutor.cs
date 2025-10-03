@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
-using AddressableAssetKit.Runtime.Downloader.Models;
+using AddressableAssetKit.Runtime.Download.Models;
 using Cysharp.Threading.Tasks;
 
-namespace AddressableAssetKit.Runtime.Downloader.Interfaces
+namespace AddressableAssetKit.Runtime.Download.Interfaces
 {
     public interface IDownloadExecutor
     {

@@ -1,13 +1,16 @@
-using AddressableAssetKit.Runtime.Downloader.Interfaces;
-using AddressableAssetKit.Runtime.Downloader.Services;
+using AddressableAssetKit.Runtime.Download.Interfaces;
+using AddressableAssetKit.Runtime.Download.Services;
+using ModestTree;
+using UnityEngine;
 using Zenject;
 
-namespace AddressableAssetKit.Runtime.Downloader.Installers
+namespace AddressableAssetKit.Runtime.Download.Installers
 {
-    public class DownloadServiceInstaller : Installer<DownloadServiceInstaller>
+    public class DownloadServiceInstaller : MonoInstaller
     {
         public override void InstallBindings()
         {
+            Debug.Log("DownloadServiceInstaller");
             // Core Services
             Container.Bind<IDownloadExecutor>()
                 .To<AddressableDownloadExecutor>()
