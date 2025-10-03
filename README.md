@@ -47,21 +47,6 @@ A comprehensive Unity package for managing Addressable asset downloads and lifec
 2. Click **[+]** button → **Add package from git URL**
 3. Enter: `https://github.com/berkcankarabulut/AddressableAssetKit.git`
 
-### Via manifest.json
-
-Add to your `Packages/manifest.json`:
-
-```json
-{
-  "dependencies": {
-    "com.berkcankarabulut.addressableassetkit": "https://github.com/berkcankarabulut/AddressableAssetKit.git",
-    "com.unity.addressables": "1.21.0",
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-    "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts"
-  }
-}
-```
-
 ## 🎯 Quick Start
 
 ### Without Dependency Injection
