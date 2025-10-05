@@ -8,19 +8,19 @@ namespace AddressableAssetKit.Runtime.Installers
     public class AddressableAssetInstaller : MonoInstaller
     {
         public override void InstallBindings()
-        { 
+        {
             // Download Service
             Container.Bind<DownloadService>()
                 .AsSingle()
                 .NonLazy();
- 
+
             Container.Bind<AddressableAssetManager>()
                 .AsSingle()
-                .NonLazy(); 
-            
-            Container.Bind<ISceneLoader>()
-                .To<AddressableSceneLoader>()
-                .AsSingle();
+                .NonLazy();
+
+            Container.Bind<AddressableSceneLoader>()
+                .AsSingle()
+                .NonLazy();
         }
     }
 }
