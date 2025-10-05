@@ -18,8 +18,7 @@ namespace AddressableAssetKit.Runtime.SceneLoader
         public IObservable<float> OnLoadProgress => _assetManager.OnLoadProgress;
 
         public AddressableSceneLoader(AddressableAssetManager assetManager)
-        {
-            Debug.Log("AddressableSceneLoader");
+        { 
             _assetManager = assetManager;
         }
 

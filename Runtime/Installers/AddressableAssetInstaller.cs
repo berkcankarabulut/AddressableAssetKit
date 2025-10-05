@@ -20,7 +20,7 @@ namespace AddressableAssetKit.Runtime.Installers
             
             Container.Bind<ISceneLoader>()
                 .To<AddressableSceneLoader>()
-                .AsTransient();
+                .AsSingle();
         }
     }
 }
