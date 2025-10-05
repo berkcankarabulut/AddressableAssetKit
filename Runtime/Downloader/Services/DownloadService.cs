@@ -12,11 +12,11 @@ namespace AddressableAssetKit.Runtime.Download.Services
 {
     public class DownloadService : IInitializable, IDisposable
     {
-        private readonly IDownloadExecutor _executor;
-        private readonly IDownloadQueue _queue;
-        private readonly IProgressTracker _tracker;
-        private readonly IDownloadStrategy _strategy;
-        private readonly ICatalogManager _catalogManager;
+        private readonly IDownloadExecutor _executor = new AddressableDownloadExecutor();
+        private readonly IDownloadQueue _queue = new PriorityDownloadQueue();
+        private readonly IProgressTracker _tracker = new ProgressTracker();
+        private readonly IDownloadStrategy _strategy = new DefaultDownloadStrategy();
+        private readonly ICatalogManager _catalogManager = new AddressableCatalogManager();
 
         private readonly Subject<DownloadTask> _downloadStarted = new();
         private readonly Subject<DownloadResult> _downloadCompleted = new();
