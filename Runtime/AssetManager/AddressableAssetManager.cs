@@ -10,7 +10,7 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 using UniRx;
 
-namespace AddressableAssetKit.Runtime
+namespace AddressableAssetKit.Runtime.Manager
 {
     public class AddressableAssetManager : IDisposable
     {
